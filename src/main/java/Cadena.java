@@ -1,5 +1,5 @@
 package main.java;
 
-public class String {
+public class Cadena {
 
 }

@@ -1,9 +1,9 @@
 package main.java;
 
-public class Arrays {
+public class Array {
 
 	public static void main(String[] args) {
-
+		System.out.println("Hola");
 	}
 
 }
