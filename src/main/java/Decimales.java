@@ -23,6 +23,7 @@ public class Decimales {
 		for(int i=1; i<=5; i++) {
 			System.out.println("Introduce el numero "+i+" en decimales:");
 			numero = scanner.nextDouble();
+			redondeoSinDecimales(numero);
 		}
 	}
 
