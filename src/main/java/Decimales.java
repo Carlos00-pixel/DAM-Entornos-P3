@@ -7,7 +7,7 @@ public class Decimales {
 
 	public static void main(String[] args) {
 		
-///////////////////////////////////////  NO HACER NADA AQUI ///////////////////////////////////////////
+
 		
 		Scanner scanner = new Scanner (System.in);
 		
