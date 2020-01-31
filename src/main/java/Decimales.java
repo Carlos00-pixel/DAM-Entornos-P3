@@ -1,8 +1,16 @@
 package main.java;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Decimales {
+	
+	public static void redondeoSinDecimales(double numero) {
+		
+		DecimalFormat df = new DecimalFormat("#");
+		System.out.println(df.format(numero));
+		
+	}
 
 	public static void main(String[] args) {
 		
