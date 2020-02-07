@@ -23,6 +23,16 @@ public class Array {
 	        
 	    }
 	 
+	 public static void media(int[] media) {
+			int media2=0;
+			for (int i=0;i<media.length;i++) {
+				 media2 = media2+media[i];
+			}
+			media2=media2/media.length;
+			System.out.println("La media es "+media2);
+			
+		}
+	 
 	public static void main(String[] args) {
 		
 ///////////////////////////////////////  NO HACER NADA AQUI ///////////////////////////////////////////
@@ -37,6 +47,7 @@ public class Array {
 		
 		minimo(minimo);
 		mediana(mediana);
+		media(media);
 	}
 
 }
