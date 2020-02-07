@@ -17,6 +17,14 @@ public class Numero {
 			}
 		}
 	}
+	
+	public static void factorial(int numero, int i, int factorial) {
+		do {
+			factorial=factorial*i;
+			i++;
+		}while(i<=numero);
+			System.out.println("El numero es "+factorial);
+	}
 	 public static void main(String[] args) {
 		 
 ///////////////////////////////////////  NO HACER NADA AQUI ///////////////////////////////////////////
@@ -37,6 +45,7 @@ public class Numero {
 		System.out.println("");
 		System.out.println("Introduce un numero: ");
 		numero = scanner.nextInt();
+		factorial(numero, i, factorial);
 
 	 }
 }
